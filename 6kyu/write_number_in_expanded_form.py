@@ -7,4 +7,5 @@ def expanded_form(num):
             resultado = str(x*int(num[i]))
             lista.append(resultado)
     return '+'.join(lista)
+    
 print(expanded_form(521))
